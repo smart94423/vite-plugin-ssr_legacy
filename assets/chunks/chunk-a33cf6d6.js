@@ -1,0 +1,1 @@
+function s(o,r){if(o)return;const i=r!==void 0;i&&(console.log(r),typeof r=="object"&&(r=JSON.stringify(r)));let t="[DocPress] Bug. Contact DocPress maintainer.";i&&(t+=" Debug info: "+String(r));const n=new Error(t);throw e()&&alert(n.stack),n}function e(){var o;return typeof window<"u"&&((o=window==null?void 0:window.location)==null?void 0:o.port)!==""}export{s as a};

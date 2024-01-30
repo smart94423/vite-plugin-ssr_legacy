@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="/assets/static/default.page.client.c08aeeaa.css">
+        <link rel="stylesheet" type="text/css" href="/assets/static/default.page.server.a90a7cab.css">
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/assets/static/vite-plugin-ssr.5177312a.svg" />
+        <title>clientRouting | vite-plugin-ssr</title>
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+        
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha" />
+    
+        
+      </head>
+      <body>
+        <div id="page-view"><div id="page-layout" class="doc-page"><div id="navigation-wrapper"><div id="navigation-container"><div id="navigation-header" style="display:flex;flex-direction:column;align-items:center;margin-bottom:-5px"><a id="navigation-header-logo" style="display:flex;align-items:center;color:inherit;justify-content:left;text-decoration:none;padding-top:12px;padding-bottom:7px" href="/"><img src="/assets/static/vite-plugin-ssr.5177312a.svg" height="55" width="55"/><code style="background-color:#f4f4f4;border-radius:4px;font-size:1.55em;padding:2px 5px;margin-left:10px">vite-plugin-ssr</code></a><div style="display:flex;align-items:center;padding-top:0;justify-content:left"><a class="colorize-on-hover decolorize-4" href="https://github.com/brillout/vite-plugin-ssr" style="padding:3px;display:inline-block;line-height:0"><img src="/assets/github-P5ZSKN2N.svg" height="20"/></a><a class="colorize-on-hover decolorize-6" href="https://discord.com/invite/hfHhnJyVg8" style="padding:3px;display:inline-block;line-height:0"><img src="/assets/discord-JD33TUSF.svg" height="20"/></a><a class="colorize-on-hover decolorize-7" href="https://twitter.com/brillout" style="padding:3px;display:inline-block;line-height:0"><img src="/assets/twitter-I7DXDN3J.svg" height="20"/></a><div class="decolorize-6 colorize-on-hover" id="docsearch-desktop"></div><a class="colorize-on-hover decolorize-4" href="/languages" style="padding:3px;display:inline-block;line-height:0"><img src="/assets/languages-KXPKJFQL.svg" height="20" style="height:21px;position:relative;top:0;left:0"/></a><a href="https://github.com/brillout/vite-plugin-ssr/blob/main/CHANGELOG.md" class="button colorize-on-hover" style="display:flex;align-items:center;padding:1px 7px;margin-left:2px;font-size:0.97em;color:inherit"><span id="version-number" class="decolorize-7">v<!-- -->0.4.142</span><img class="decolorize-6" src="/assets/changelog-IPI5F42D.svg" height="16" style="margin-left:5px"/></a></div></div><div id="navigation-content-main" class="navigation-content"><div class="nav-column" style="position:relative"><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em"><img src="/assets/compass-2RWQU3E4.svg" style="vertical-align:text-top;font-size:1em;width:1.4em"/> <span style="font-size:1rem">Overview</span></span></a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/">Introduction</a><a class="nav-item nav-item-h2" href="/nextjs-comparison">Next.js Comparison</a><a class="nav-item nav-item-h2" href="/vue-tour">Vue Tour</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/react-tour">React Tour</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em">🌱<!-- --> <span style="font-size:1rem">Get Started</span></span></a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/scaffold">Scaffold new app</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/add">Add to existing app</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em">📚<!-- --> <span style="font-size:1rem">Guides</span></span></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Basics</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/routing">Routing</a><a class="nav-item nav-item-h2" href="/data-fetching">Data Fetching</a><a class="nav-item nav-item-h2" href="/pre-rendering">Pre-rendering (SSG)</a><a class="nav-item nav-item-h2" href="/pageContext-anywhere">Access <code>pageContext</code> anywhere</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/common-issues">Common Issues</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">More</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/head"><code>&lt;head&gt;</code> meta tags</a><a class="nav-item nav-item-h2" href="/auth">Authentication</a><a class="nav-item nav-item-h2" href="/layouts">Layouts</a><a class="nav-item nav-item-h2" href="/static-directory">Static Directory (<code>public/</code>)</a><a class="nav-item nav-item-h2" href="/render-modes">SPA, SSR, SSG, HTML-only</a><a class="nav-item nav-item-h2" href="/env">Environment Variables</a><a class="nav-item nav-item-h2" href="/i18n">Internationalization (i18n)</a><a class="nav-item nav-item-h2" href="/file-structure">File Structure</a><a class="nav-item nav-item-h2" href="/exports">Custom Exports/Hooks</a><a class="nav-item nav-item-h2" href="/path-aliases">Paths Aliases</a><a class="nav-item nav-item-h2" href="/preload">Preload</a><a class="nav-item nav-item-h2" href="/stream">HTML Streaming</a><a class="nav-item nav-item-h2" href="/api-routes">API Routes</a><a class="nav-item nav-item-h2" href="/client-only-components">Client-only Components</a><a class="nav-item nav-item-h2" href="/errors">Error Handling</a><a class="nav-item nav-item-h2" href="/debug">Debug</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/build-your-own-framework">Build Your Own Framework</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em"><img src="/assets/road-fork-3WZLW3HB.svg" style="vertical-align:text-top;font-size:1em;width:1.4em"/> <span style="font-size:1rem">Routing</span></span></a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/server-routing-vs-client-routing">Server Routing VS Client Routing</a><a class="nav-item nav-item-h2" href="/filesystem-routing">Filesystem Routing</a><a class="nav-item nav-item-h2" href="/route-string">Route String</a><a class="nav-item nav-item-h2" href="/route-function">Route Function</a><a class="nav-item nav-item-h2" href="/guard">Guard</a><a class="nav-item nav-item-h2" href="/active-links">Active Links</a><a class="nav-item nav-item-h2" href="/base-url">Base URL</a><a class="nav-item nav-item-h2" href="/catch-all">Catch-All Routes</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/routing-precedence">Routing Precedence</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em">🌍<!-- --> <span style="font-size:1rem">Deploy</span></span></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Static hosts</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/github-pages">GitHub Pages</a><a class="nav-item nav-item-h2" href="/cloudflare-pages">Cloudflare Pages</a><a class="nav-item nav-item-h2" href="/netlify">Netlify</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/static-hosts">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Serverless</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/cloudflare-workers">Cloudflare Workers</a><a class="nav-item nav-item-h2" href="/vercel">Vercel</a><a class="nav-item nav-item-h2" href="/aws-lambda">AWS Lambda</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/netlify-functions">Netlify Functions</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Full-stack</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/aws">AWS</a><a class="nav-item nav-item-h2" href="/docker">Docker</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/deploy">Other</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em">🔌<!-- --> <span style="font-size:1rem">Integration</span></span></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Data fetching</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/apollo-graphql">Apollo (GraphQL)</a><a class="nav-item nav-item-h2" href="/relay">Relay (GraphQL)</a><a class="nav-item nav-item-h2" href="/telefunc">Telefunc (RPC)</a><a class="nav-item nav-item-h2" href="/tRPC">tRPC</a><a class="nav-item nav-item-h2" href="/react-query">React Query</a><a class="nav-item nav-item-h2" href="/vue-query">Vue Query</a><a class="nav-item nav-item-h2" href="/urql">urql (GraphQL)</a><a class="nav-item nav-item-h2" href="/grpc">gRPC</a><a class="nav-item nav-item-h2" href="/socket-io">Socket.IO</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/data-fetching-tools">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Data store</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/vuex">Vuex</a><a class="nav-item nav-item-h2" href="/redux">Redux</a><a class="nav-item nav-item-h2" href="/pinia">Pinia</a><a class="nav-item nav-item-h2" href="/pullstate">PullState</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/store">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Authentication</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind nav-item-last-of-its-kind" href="/Auth.js">Auth.js</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">CSS, styling, CSS frameworks</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/tailwind-css">Tailwind CSS</a><a class="nav-item nav-item-h2" href="/windi-css">Windi CSS</a><a class="nav-item nav-item-h2" href="/vuetify">Vuetify</a><a class="nav-item nav-item-h2" href="/css-in-js">CSS-in-JS</a><a class="nav-item nav-item-h2" href="/styled-components">styled-components</a><a class="nav-item nav-item-h2" href="/styled-jsx">styled-jsx</a><a class="nav-item nav-item-h2" href="/mui">MUI</a><a class="nav-item nav-item-h2" href="/primereact">PrimeReact</a><a class="nav-item nav-item-h2" href="/bootstrap">Bootstrap</a><a class="nav-item nav-item-h2" href="/sass">Sass / Less / Stylus</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/css-frameworks">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">UI frameworks</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/react">React</a><a class="nav-item nav-item-h2" href="/vue">Vue</a><a class="nav-item nav-item-h2" href="/svelte">Svelte</a><a class="nav-item nav-item-h2" href="/preact">Preact</a><a class="nav-item nav-item-h2" href="/solid">Solid</a><a class="nav-item nav-item-h2" href="/angular">Angular</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/ui-framework">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Server</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/https">HTTPS</a><a class="nav-item nav-item-h2" href="/express">Express.js</a><a class="nav-item nav-item-h2" href="/deno">Deno</a><a class="nav-item nav-item-h2" href="/fastify">Fastify</a><a class="nav-item nav-item-h2" href="/firebase">Firebase</a><a class="nav-item nav-item-h2" href="/PM2">PM2</a><a class="nav-item nav-item-h2" href="/koa">Koa</a><a class="nav-item nav-item-h2" href="/hapi">hapi</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/server">Other</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Other</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/markdown">Markdown</a><a class="nav-item nav-item-h2" href="/MDXEditor">MDXEditor</a><a class="nav-item nav-item-h2" href="/tauri">Tauri</a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/integration">Other</a></div><div class="nav-h1-group"><a class="nav-item nav-item-h1 nav-item-first-of-its-kind nav-item-last-of-its-kind"><span style="font-size:1.4em">⚙<!-- --> <span style="font-size:1rem">API</span></span></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Core</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind nav-item-last-of-its-kind" href="/pageContext"><code>pageContext</code></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Global config</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/prerender-config"><code>prerender</code></a><a class="nav-item nav-item-h2" href="/disableAutoFullBuild"><code>disableAutoFullBuild</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/redirects"><code>redirects</code></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Server- &amp; client-side</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/.page.js"><code>.page.js</code></a><a class="nav-item nav-item-h2" href="/Page"> • <code>export { Page }</code></a><a class="nav-item nav-item-h2" href="/onBeforeRender-isomorphic"> • <code>export { onBeforeRender }</code></a><a class="nav-item nav-item-h2" href="/redirect"><code>throw redirect()</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/render"><code>throw render()</code></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Server-side</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/.page.server.js"><code>.page.server.js</code></a><a class="nav-item nav-item-h2" href="/Page-server"> • <code>export { Page }</code></a><a class="nav-item nav-item-h2" href="/onBeforeRender"> • <code>export { onBeforeRender }</code></a><a class="nav-item nav-item-h2" href="/passToClient"> • <code>export { passToClient }</code></a><a class="nav-item nav-item-h2" href="/render-hook"> • <code>export { render }</code></a><a class="nav-item nav-item-h2" href="/prerender"> • <code>export { prerender }</code></a><a class="nav-item nav-item-h2" href="/doNotPrerender"> • <code>export { doNotPrerender }</code></a><a class="nav-item nav-item-h2" href="/renderPage"><code>renderPage()</code></a><a class="nav-item nav-item-h2" href="/injectFilter"><code>injectFilter()</code></a><a class="nav-item nav-item-h2" href="/escapeInject"><code>escapeInject</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/prerender-programmatic"><code>prerender()</code> programmatic</a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Client-side</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/.page.client.js"><code>.page.client.js</code></a><a class="nav-item nav-item-h2" href="/Page-client"> • <code>export { Page }</code></a><a class="nav-item nav-item-h2" href="/render-client"> • <code>export { render }</code></a><a class="nav-item nav-item-h2  is-active  is-active-first nav-item-last-of-its-kind" href="/clientRouting"> • <code>export { clientRouting }</code></a><a class="nav-item nav-item-h3  is-active nav-item-parent-is-list-heading nav-item-first-of-its-kind" href="#usage-options">Usage &amp; options</a><a class="nav-item nav-item-h3  is-active nav-item-parent-is-list-heading" href="#state-initialization">State initialization</a><a class="nav-item nav-item-h3  is-active  is-active-last nav-item-parent-is-list-heading nav-item-last-of-its-kind" href="#link-prefetching">Link prefetching</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/navigate"><code>navigate()</code></a><a class="nav-item nav-item-h2" href="/reload"><code>reload()</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/prefetch"><code>prefetch()</code></a><a class="nav-item nav-item-h4 nav-item-first-of-its-kind nav-item-last-of-its-kind">Routing</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/.page.route.js"><code>.page.route.js</code></a><a class="nav-item nav-item-h2" href="/_default.page.route.js"><code>_default.page.route.js</code></a><a class="nav-item nav-item-h2" href="/filesystemRoutingRoot"> • <code>export { filesystemRoutingRoot }</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/onBeforeRoute"> • <code>export { onBeforeRoute }</code></a><a class="nav-item nav-item-h4 nav-item-parent-is-list-heading nav-item-first-of-its-kind nav-item-last-of-its-kind">Special pages</a><a class="nav-item nav-item-h2 nav-item-first-of-its-kind" href="/default-page"><code>_default.page.*</code></a><a class="nav-item nav-item-h2 nav-item-last-of-its-kind" href="/error-page"><code>_error.page.js</code></a></div></div></div><a id="navigation-fullscreen-close" style="position:absolute;top:11px;right:11px;z-index:10" aria-label="Press &lt;Esc&gt;" data-balloon-pos="left"><img src="/assets/close-IQXTDOHV.svg" height="50" width="50" style="display:block"/></a></div></div><a id="navigation-fullscreen-button"><div style="position:fixed;cursor:pointer;height:100vh;width:20px;overflow:hidden"><div></div></div><div style="position:fixed;height:100vh;width:20px" aria-label="Press &lt;Esc&gt;" data-balloon-pos="right"></div></a><div id="page-wrapper"><div id="page-container"><div id="mobile-header" style="height:var(--mobile-header-height);width:100%;position:relative"><div style="position:fixed;display:flex;align-items:center;background:white;z-index:99;top:0;left:0;height:var(--mobile-header-height);width:100%;border-bottom:1px solid #ddd"><div style="padding:20px;line-height:0;cursor:pointer" id="menu-toggle"><svg style="width:20px" class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" style="color:inherit;display:flex;align-items:center;justify-content:left;text-decoration:none"><img src="/assets/static/vite-plugin-ssr.5177312a.svg" height="40" width="40"/><code style="background-color:#f4f4f4;border-radius:4px;font-size:1.25em;padding:2px 5px;margin-left:5px">vite-plugin-ssr</code></a><div id="docsearch-mobile"></div></div></div><div id="page-content"><div style="display:flex;justify-content:center;text-align:center"><blockquote class="custom-icon type-warning note-color-yellow"><div style="margin-bottom:20px"></div><img style="height: 1.275em; width: 1.275em; vertical-align: -20%" draggable="false" alt="⚠" src="https://twemoji.maxcdn.com/v/13.1.1/svg/26a0.svg"/><!-- --> <div class="blockquote-content"><code>vite-plugin-ssr</code> has been renamed <a href="https://vike.dev">Vike</a>, see<!-- --> <a href="/vike">migration guide</a>.</div><div style="margin-top:20px"></div></blockquote></div><h1><code>clientRouting</code></h1><p>Environment: browser.</p>
+<p>By default, <code>vite-plugin-ssr</code> does <a href="/server-routing">Server Routing</a>.</p>
+<p>We opt into <a href="/client-routing">Client Routing</a> by modifying <code>/renderer/_default.client.js</code> to:</p>
+<ol>
+<li>Set <code>export const clientRouting = true</code>.</li>
+<li>Update and adapt the <a href="/render-client">client-side <code>render()</code> hook</a> to
+hydrate the DOM only when rendering the first page.</li>
+</ol>
+<blockquote>
+<p>Instead of manually integrating Client Routing yourself, you can use <a href="/vike-packages"><code>vike-*</code> packages</a> and <a href="https://batijs.github.io/">Bati</a>: <code>vike-*</code> packages use Client Routing and Bati helps you scaffold projects. Bati and <code>vike-*</code> packages are going to get out of beta soon.</p>
+</blockquote>
+<p>React example:</p>
+<ul>
+<li>
+<a href="https://github.com/brillout/vite-plugin-ssr/blob/main/examples/react-full/renderer/_default.page.client.tsx">/examples/react-full/renderer/_default.page.client.tsx</a>
+</li>
+<li><a href="https://github.com/brillout/vite-plugin-ssr/blob/main/examples/react-full/pages/index.page.tsx">/examples/react-full/pages/index.page.tsx</a> (example of using <code>navigate()</code>)</li>
+</ul>
+<p>Vue example:</p>
+<ul>
+<li>
+<a href="https://github.com/brillout/vite-plugin-ssr/blob/main/examples/vue-full/renderer/_default.page.client.ts">/examples/vue-full/renderer/_default.page.client.ts</a>
+</li>
+<li>
+<a href="https://github.com/brillout/vite-plugin-ssr/blob/main/examples/vue-full/renderer/app.ts">/examples/vue-full/renderer/app.ts</a>
+</li>
+<li><a href="https://github.com/brillout/vite-plugin-ssr/blob/main/examples/vue-full/pages/index.page.vue">/examples/vue-full/pages/index.page.vue</a> (example of using <code>navigate()</code>)</li>
+</ul>
+<h2 id="usage-options">Usage &amp; options</h2>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.client.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: browser</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { render }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Enable Client Routing</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">clientRouting</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0550AE">true</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// See &quot;Link prefetching&quot; section below. Default value: &#x27;hover&#x27;.</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;viewport&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Whether your UI framework allows the hydration to be aborted. (Allowing vite-plugin-ssr</span></span>
+<span class="line"><span style="color:#6E7781">// to abort the hydration if the user clicks on a link before the hydration finished.)</span></span>
+<span class="line"><span style="color:#6E7781">// React users should set hydrationCanBeAborted to true. (Other frameworks,</span></span>
+<span class="line"><span style="color:#6E7781">// such as Vue, crash if the hydration is aborted.)</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">hydrationCanBeAborted</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0550AE">true</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Create custom page transition animations</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { onPageTransitionStart }</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { onPageTransitionEnd }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// The onHydrationEnd() hook is called after the render() hook finishes for the</span></span>
+<span class="line"><span style="color:#6E7781">// first page the user navigates to (the onHydrationEnd() hook isn&#x27;t called for</span></span>
+<span class="line"><span style="color:#6E7781">// subsequent page navigation).</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { onHydrationEnd }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">the user navigates to the </span><span style="color:#8250DF">render</span><span style="color:#24292F">() hook the first page finishes rendering </span><span style="color:#8250DF">render</span><span style="color:#24292F">())</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { renderToDom, hydrateDom } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;some-ui-framework&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">async</span><span style="color:#24292F"> </span><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">render</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#6E7781">// `pageContext.isHydration` is set by `vite-plugin-ssr` and is `true` when the page</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#6E7781">// is already rendered to HTML.</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#CF222E">if</span><span style="color:#24292F"> (pageContext.isHydration) {</span></span>
+<span class="line"><span style="color:#24292F">      </span><span style="color:#6E7781">// We hydrate the first page. (Since we do SSR, the first page is already</span></span>
+<span class="line"><span style="color:#24292F">      </span><span style="color:#6E7781">// rendered to HTML and we merely have to hydrate it.)</span></span>
+<span class="line"><span style="color:#24292F">      </span><span style="color:#CF222E">await</span><span style="color:#24292F"> </span><span style="color:#8250DF">hydrate</span><span style="color:#24292F">(pageContext.Page)</span></span>
+<span class="line"><span style="color:#24292F">    } </span><span style="color:#CF222E">else</span><span style="color:#24292F"> {</span></span>
+<span class="line"><span style="color:#24292F">      </span><span style="color:#6E7781">// We render a new page. (When the user navigates to a new page.)</span></span>
+<span class="line"><span style="color:#24292F">      </span><span style="color:#CF222E">await</span><span style="color:#24292F"> </span><span style="color:#8250DF">renderToDom</span><span style="color:#24292F">(pageContext.Page)</span></span>
+<span class="line"><span style="color:#24292F">    }</span></span>
+<span class="line"><span style="color:#24292F">  }</span></span>
+<span class="line"><span style="color:#24292F">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">onPageTransitionStart</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">  console.</span><span style="color:#8250DF">log</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;Page transition start&#x27;</span><span style="color:#24292F">)</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// `pageContext.isBackwardNavigation` is also set at `render(pageContext)`</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// and `onPageTransitionEnd(pageContext)`.</span></span>
+<span class="line"><span style="color:#24292F">  console.</span><span style="color:#8250DF">log</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;Is backwards navigation?&#x27;</span><span style="color:#24292F">, pageContext.isBackwardNavigation)</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// For example:</span></span>
+<span class="line"><span style="color:#24292F">  document.body.classList.</span><span style="color:#8250DF">add</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;page-transition&#x27;</span><span style="color:#24292F">)</span></span>
+<span class="line"><span style="color:#24292F">}</span></span>
+<span class="line"><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">onPageTransitionEnd</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">  console.</span><span style="color:#8250DF">log</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;Page transition end&#x27;</span><span style="color:#24292F">)</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// For example:</span></span>
+<span class="line"><span style="color:#24292F">  document.body.classList.</span><span style="color:#8250DF">remove</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;page-transition&#x27;</span><span style="color:#24292F">)</span></span>
+<span class="line"><span style="color:#24292F">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">onHydrationEnd</span><span style="color:#24292F">() {</span></span>
+<span class="line"><span style="color:#24292F">  console.</span><span style="color:#8250DF">log</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;The page is now interactive&#x27;</span><span style="color:#24292F">)</span></span>
+<span class="line"><span style="color:#24292F">}</span></span></code></pre></div>
+<blockquote>
+<p>Note that <code>pageContext</code> is completely discarded and created anew upon page navigation.
+That&#x27;s why it&#x27;s called <em>page</em>Context (and not <em>app</em>Context).</p>
+</blockquote>
+<p>We can keep using <code>&lt;a href=&quot;/some-url&quot;&gt;</code> links: the Client Router automatically intercepts clicks on <code>&lt;a&gt;</code> elements.</p>
+<p>We can skip the Client Router by adding the <code>rel=&quot;external&quot;</code> attribute, e.g. <code>&lt;a rel=&quot;external&quot; href=&quot;/some/url&quot;&gt;The Client Router won&#x27;t intercept me&lt;/a&gt;</code>.</p>
+<p>We can use <a href="/navigate"><code>navigate(&#x27;/some/url&#x27;)</code></a> to programmatically navigate the user to a new page.</p>
+<p>By default, the Client-side Router scrolls to the top of the page upon page change;
+we can use <code>&lt;a href=&quot;/some/url&quot; keep-scroll-position /&gt;</code> / <code>navigate(&#x27;/some/url&#x27;, { keepScrollPosition: true })</code>
+if we want to preserve the scroll position instead. (Useful for <a href="/layouts#nested-layouts">Nested Layouts</a>.)</p>
+<blockquote>
+<p>See <a href="/render-modes">Render Modes</a> for another illustration of conditional DOM hydration.</p>
+</blockquote>
+<h2 id="state-initialization">State initialization</h2>
+<p>Usually, when using tools such as Apollo GraphQL, Redux or Vuex, we determine the initial state of our UI on the server-side while rendering HTML, and then initialize the client-side with that initial state.</p>
+<p>Depending on the tool, we do either one of the following:</p>
+<ul>
+<li>We initialize the state once.</li>
+<li>We re-initialize the state on every page navigation.</li>
+</ul>
+<blockquote><p> <b>Reading Recommendation<!-- -->.</b></p><ul style="margin-left:18px;margin-top:11px"><li><a href="/react-tour">React Tour</a> or <a href="/vue-tour">Vue Tour</a></li><li><a href="/data-fetching">Guides<!-- --> &gt; <!-- -->Data Fetching</a></li><li><a href="/data-fetching-tools">Integration<!-- --> &gt; <!-- -->Data Fetching Tools</a></li><li><a href="/store">Integration<!-- --> &gt; <!-- -->Data Store</a></li></ul></blockquote>
+<p>To initialize once:</p>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.server.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { render }</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { passToClient }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { escapeInject, dangerouslySkipEscape } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;vite-plugin-ssr/server&#x27;</span></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { renderToHtml } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;some-ui-framework&#x27;</span></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { getInitialState } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;./getInitialState&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">passToClient</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> [</span><span style="color:#0A3069">&#x27;initialState&#x27;</span><span style="color:#24292F">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// The `render()` hook is called only for the first page.</span></span>
+<span class="line"><span style="color:#6E7781">// (Whereas `onBeforeRender()` is called as well upon page navigation.)</span></span>
+<span class="line"><span style="color:#CF222E">async</span><span style="color:#24292F"> </span><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">render</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">initialState</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#CF222E">await</span><span style="color:#24292F"> </span><span style="color:#8250DF">getInitialState</span><span style="color:#24292F">()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// We use `initialState` for rendering the HTML, so that the HTML contains</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// the content of `initialState`.</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">pageHtml</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#CF222E">await</span><span style="color:#24292F"> </span><span style="color:#8250DF">renderToHtml</span><span style="color:#24292F">(pageContext.Page, initialState)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">documentHtml</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#8250DF">escapeInject</span><span style="color:#0A3069">`&lt;!DOCTYPE html&gt;</span></span>
+<span class="line"><span style="color:#0A3069">    &lt;html&gt;</span></span>
+<span class="line"><span style="color:#0A3069">      &lt;body&gt;</span></span>
+<span class="line"><span style="color:#0A3069">        &lt;div&gt;${</span><span style="color:#8250DF">dangerouslySkipEscape</span><span style="color:#0A3069">(</span><span style="color:#24292F">pageHtml</span><span style="color:#0A3069">)</span><span style="color:#0A3069">}&lt;/div&gt;</span></span>
+<span class="line"><span style="color:#0A3069">      &lt;/body&gt;</span></span>
+<span class="line"><span style="color:#0A3069">    &lt;/html&gt;`</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">return</span><span style="color:#24292F"> {</span></span>
+<span class="line"><span style="color:#24292F">    documentHtml,</span></span>
+<span class="line"><span style="color:#24292F">    pageContext: {</span></span>
+<span class="line"><span style="color:#24292F">      initialState</span></span>
+<span class="line"><span style="color:#24292F">    }</span></span>
+<span class="line"><span style="color:#24292F">  }</span></span>
+<span class="line"><span style="color:#24292F">}</span></span></code></pre></div>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.client.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: browser</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { render }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { initClientSide } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;./initClientSide&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">async</span><span style="color:#24292F"> </span><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">render</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// The first page is rendered to HTML and `pageContext.isHydration === true`</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">if</span><span style="color:#24292F"> (pageContext.isHydration) {</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#6E7781">// `pageContext.initialState` is available here</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#8250DF">initClientSide</span><span style="color:#24292F">(pageContext.initialState)</span></span>
+<span class="line"><span style="color:#24292F">  } </span><span style="color:#CF222E">else</span><span style="color:#24292F"> {</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#6E7781">// Note that `pageContext.initialState` isn&#x27;t available here,</span></span>
+<span class="line"><span style="color:#24292F">    </span><span style="color:#6E7781">// since our `render()` hook is only called for the first page.</span></span>
+<span class="line"><span style="color:#24292F">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// ...</span></span>
+<span class="line"><span style="color:#24292F">}</span></span></code></pre></div>
+<p>To initialize on every page navigation:</p>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.server.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { onBeforeRender }</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { passToClient }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { getInitialState } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;./getInitialState&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">passToClient</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> [</span><span style="color:#0A3069">&#x27;initialState&#x27;</span><span style="color:#24292F">]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// The `onBeforeRender()` hook is called for the first page as well as upon page navigation.</span></span>
+<span class="line"><span style="color:#6E7781">// (Whereas `render()` is called only for the first page.)</span></span>
+<span class="line"><span style="color:#CF222E">async</span><span style="color:#24292F"> </span><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">onBeforeRender</span><span style="color:#24292F">() {</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">initialState</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#CF222E">await</span><span style="color:#24292F"> </span><span style="color:#8250DF">getInitialState</span><span style="color:#24292F">()</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">return</span><span style="color:#24292F"> {</span></span>
+<span class="line"><span style="color:#24292F">    pageContext: {</span></span>
+<span class="line"><span style="color:#24292F">      initialState</span></span>
+<span class="line"><span style="color:#24292F">    }</span></span>
+<span class="line"><span style="color:#24292F">  }</span></span>
+<span class="line"><span style="color:#24292F">}</span></span></code></pre></div>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.client.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: browser</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> { render }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">import</span><span style="color:#24292F"> { initClientSide } </span><span style="color:#CF222E">from</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;./initClientSide&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#CF222E">async</span><span style="color:#24292F"> </span><span style="color:#CF222E">function</span><span style="color:#24292F"> </span><span style="color:#8250DF">render</span><span style="color:#24292F">(</span><span style="color:#953800">pageContext</span><span style="color:#24292F">) {</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// We initialize the state for every page rendering. So not only</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// the first page but also any subsequent page navigation.</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#8250DF">initClientSide</span><span style="color:#24292F">(pageContext.initialState)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#6E7781">// ...</span></span>
+<span class="line"><span style="color:#24292F">}</span></span></code></pre></div>
+<h2 id="link-prefetching">Link prefetching</h2>
+<p>By default,
+the static assets of <code>/some-url</code> are loaded as soon as the user hovers his mouse over a link <code>&lt;a href=&quot;/some-url&quot;&gt;</code>.
+This means that static assets are often already loaded before even the user clicks on the link.</p>
+<p>We can prefetch even more eagerly by using viewport prefetching: the links are then prefetched as soon as they appear in the viewport of the user&#x27;s browser.</p>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// /renderer/_default.page.client.js</span></span>
+<span class="line"><span style="color:#6E7781">// Environment: browser</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Prefetch links as soon as they enter the viewport</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;viewport&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Prefetch links when the user&#x27;s mouse hovers a link</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;hover&#x27;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6E7781">// Disable prefetching</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> </span><span style="color:#0550AE">false</span></span></code></pre></div>
+<blockquote>
+<p>Viewport prefetching is disabled in development. (Because it would make Vite transpile all preloaded pages and thus siginficantly slow down development.)</p>
+</blockquote>
+<p>To override the setting for individual links: <code>&lt;a data-prefetch-static-assets=&quot;hover&quot; href=&quot;/some-url&quot; /&gt;</code> (or <code>data-prefetch-static-assets=&quot;false&quot;</code> and <code>data-prefetch-static-assets=&quot;viewport&quot;</code>).</p>
+<p>We can programmatically <a href="/prefetch"><code>prefetch(&#x27;/some/url&#x27;)</code></a>.</p>
+<blockquote>
+<p>Only static assets are prefetched: the <code>pageContext</code> of pages isn&#x27;t prefetched, see <a href="https://github.com/brillout/vite-plugin-ssr/issues/246">#246</a>.</p>
+</blockquote>
+<p>We can viewport prefetch for mobile users while only hover prefetch for desktop users:</p>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// For small screens, such as mobile, viewport prefetching can be a sensible strategy</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> window.</span><span style="color:#8250DF">matchMedia</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;(max-width: 600px)&#x27;</span><span style="color:#24292F">).matches</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">?</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;viewport&#x27;</span><span style="color:#24292F"> </span><span style="color:#CF222E">:</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;hover&#x27;</span></span></code></pre></div>
+<div data-rehype-pretty-code-fragment=""><pre data-language="js" data-theme="default"><code data-language="js" data-theme="default"><span class="line"><span style="color:#6E7781">// Or we enable viewport prefetching for any device without a mouse: mobile and tablets (but</span></span>
+<span class="line"><span style="color:#6E7781">// not laptops that have a touch display).</span></span>
+<span class="line"><span style="color:#CF222E">export</span><span style="color:#24292F"> </span><span style="color:#CF222E">const</span><span style="color:#24292F"> </span><span style="color:#0550AE">prefetchStaticAssets</span><span style="color:#24292F"> </span><span style="color:#CF222E">=</span><span style="color:#24292F"> window.</span><span style="color:#8250DF">matchMedia</span><span style="color:#24292F">(</span><span style="color:#0A3069">&#x27;(any-hover: none)&#x27;</span><span style="color:#24292F">).matches</span></span>
+<span class="line"><span style="color:#24292F">  </span><span style="color:#CF222E">?</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;viewport&#x27;</span><span style="color:#24292F"> </span><span style="color:#CF222E">:</span><span style="color:#24292F"> </span><span style="color:#0A3069">&#x27;hover&#x27;</span></span></code></pre></div>
+<p>See also:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia">MDN &gt; Web API &gt; Window &gt; matchMedia()</a></li>
+<li><a href="https://stackoverflow.com/questions/7838680/detecting-that-the-browser-has-no-mouse-and-is-touch-only/52854585#52854585">Stack Overflow &gt; Detecting that the browser has no mouse and is touch-only</a></li>
+</ul><div style="margin-top:50px"><a href="https://github.com/brillout/vite-plugin-ssr/tree/main/docs/pages/clientRouting.page.server.mdx">✍<!-- --> Edit this page</a></div></div></div><div id="navigation-mask"></div></div></div></div>
+        
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <script type="text/javascript">
+      const appId = 'MUXG1ZE9F6';
+      const apiKey = '8d5986fca9ba9110bcbbfc51263de88b';
+      const indexName = 'vite-pluginssr';
+      const transformItems = function(hits) {
+        hits.map(hit => {
+          if (hit.url.indexOf('#page-content') > 0) {
+            hit.url = hit.url.replace('#page-content', '');
+          }
+        });
+        return hits;
+      };
+      docsearch({
+        container: '#docsearch-desktop',
+        appId, apiKey, indexName, transformItems
+      });
+      docsearch({
+        container: '#docsearch-mobile',
+        appId, apiKey, indexName, transformItems
+      });
+    </script>
+  
+        <script type="module" src="/assets/chunks/chunk-d290a29b.js" defer></script>
+      </body>
+    </html>
